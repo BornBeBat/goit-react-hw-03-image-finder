@@ -1,8 +1,8 @@
 import s from './Button.module.scss';
 
-export const Button = () => {
+export const Button = ({ onClick }) => {
   return (
-    <button className={s.button} type="button">
+    <button className={s.button} type="button" onClick={onClick}>
       Load more
     </button>
   );
