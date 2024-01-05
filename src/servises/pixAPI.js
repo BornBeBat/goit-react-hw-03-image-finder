@@ -6,7 +6,6 @@ class ApiServise {
   constructor() {
     this.option = {
       url: 'https://pixabay.com/api/',
-      // baseUrl: 'https://pixabay.com/',
       method: 'get',
       params: {
         key: '41071182-18ccbddfe29083241d2882ae4',
